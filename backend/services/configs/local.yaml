@@ -1,4 +1,4 @@
-env: "local"
+env: "prod"
 server:
   port: "8019"
   timeout: 5s

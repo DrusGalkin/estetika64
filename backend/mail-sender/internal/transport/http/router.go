@@ -22,7 +22,7 @@ func setupCORS(env string) fiber.Handler {
 	var allowOrigins string
 	switch env {
 	case "prod":
-		allowOrigins = "http://estetica64.ru,http://www.estetica64.ru"
+		allowOrigins = "http://94.241.170.57"
 	case "local":
 		allowOrigins = "http://127.0.0.1:5173,http://localhost:5173"
 	}

@@ -1,4 +1,4 @@
-env: "local"
+env: "prod"
 mail:
     host: "smtp.mail.ru"
     port: 465

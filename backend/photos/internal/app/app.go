@@ -8,7 +8,7 @@ import (
 	"photos/internal/transport/http/handlers"
 )
 
-const ENV = "local"
+const ENV = "prod"
 
 func Run(db storage.Storage) *fiber.App {
 	repo := repository.New(db)
