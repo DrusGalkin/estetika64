@@ -1,5 +1,4 @@
-name: "Estetika"
-
+version: "3.8"
 
 services:
   auth:
