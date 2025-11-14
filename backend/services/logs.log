@@ -1,0 +1,23 @@
+2025-09-03T18:53:34.767+0300	INFO	cmd/main.go:13	ok
+2025-09-03T20:22:39.472+0300	INFO	cmd/main.go:13	ok
+2025-09-03T20:23:27.010+0300	INFO	cmd/main.go:13	ok
+2025-09-03T20:23:27.014+0300	ERROR	postgres/postgres.go:35	postgres.Connect: pq: password authentication failed for user "drussic"	{"op": "postgres.Connect"}
+services/intertal/storage/postgres.Connect
+	/home/drussic/Документы/Эстетика/backend/services/intertal/storage/postgres/postgres.go:35
+main.main
+	/home/drussic/Документы/Эстетика/backend/services/cmd/main.go:16
+runtime.main
+	/home/drussic/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.23.10.linux-amd64/src/runtime/proc.go:272
+2025-09-03T20:24:42.182+0300	INFO	cmd/main.go:13	ok
+2025-09-03T20:24:42.187+0300	ERROR	postgres/postgres.go:35	postgres.Connect: pq: password authentication failed for user "drussic"	{"op": "postgres.Connect"}
+services/intertal/storage/postgres.Connect
+	/home/drussic/Документы/Эстетика/backend/services/intertal/storage/postgres/postgres.go:35
+main.main
+	/home/drussic/Документы/Эстетика/backend/services/cmd/main.go:16
+runtime.main
+	/home/drussic/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.23.10.linux-amd64/src/runtime/proc.go:272
+2025-09-03T20:25:05.656+0300	INFO	cmd/main.go:13	ok
+2025-09-03T20:25:43.841+0300	INFO	cmd/main.go:13	ok
+2025-09-03T20:25:43.845+0300	INFO	postgres/postgres.go:40	Успешное подключение к базе данных	{"op": "postgres.Connect"}
+2025-09-03T20:37:08.417+0300	INFO	cmd/main.go:16	Logger ok
+2025-09-03T20:37:08.422+0300	INFO	postgres/postgres.go:40	Успешное подключение к базе данных	{"op": "postgres.Connect"}
